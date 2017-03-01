@@ -2,6 +2,7 @@ module.exports = ($scope,$rootScope,Restangular,$localStorage,$location)=>{
   $scope.authenticated = false;
   $scope.error = null;
   $scope.message = null;
+  $scope.storage = $localStorage;
 
   $scope.checkAuth = ()=>{
     $scope.authenticated = false;
