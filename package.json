@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/atlasterHq/angular-auth/issues"
   },
-  "homepage": "https://github.com/atlasterHq/angular-auth#readme"
+  "homepage": "https://github.com/atlasterHq/angular-auth#readme",
+  "dependencies": {
+    "angular": "1.6.2",
+    "ng-storage": "0.3.2",
+    "restangular": "1.6.1"
+  }
 }
